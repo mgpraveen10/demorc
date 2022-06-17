@@ -1,0 +1,41 @@
+<meta data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+  data-sly-call="${clientlib.all @ categories='demorc.base'}" data-sly-unwrap>
+</meta>
+
+
+<div data-sly-use.children="carouselItems.js" data-sly-unwrap=""></div>
+
+  <!-- Slideshow container -->
+  <div class="slideshow-container" data-sly-list.image="${children.allImages}">
+
+    <h1 data-sly-test="${!image.fileReference}">Add images here for slider</h1>
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="${image.fileReference}" style="width:100%;height:500px">
+      <div class="heading">
+        <h1>${image.heading}</h1>
+        <p>${image.description}</p>
+      </div>
+      <button class="slider-btn"><a  href="${image.buttonLinkTo}">${image.buttonLabel}</a></button>
+      <div class="text">${image.imageTitle}</div>
+    </div>
+
+
+
+    <!-- Next and previous buttons -->
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+
+
+
+  <!-- The dots/circles -->
+
+  <!-- <div style="text-align:center" data-sly-list.image="${children.allImages}">
+
+  <span class="dot" onclick="currentSlide(1)"></span>
+
+</div> -->

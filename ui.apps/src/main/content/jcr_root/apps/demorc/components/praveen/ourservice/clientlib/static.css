@@ -1,0 +1,27 @@
+
+.our-service-container{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+	display: grid;
+    grid-gap: 4px;
+  	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.our-service-deneme{
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
+
+.ourservice-new{
+    margin-bottom: 10px;  
+    border: 1px solid white;
+    width: 90%;
+    height: 70px;
+    background-color: white;
+                color:black;
+}
+.ourservice-new:hover{
+    color:rgb(0,57,99);
+    font-size:15px;
+    font-weight: bold;
+     background-color: white;
+    cursor:pointer;
+}

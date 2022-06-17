@@ -1,0 +1,25 @@
+
+<meta data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientlib.all @ categories='cq:myportfolio'}" data-sly-unwrap></meta>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class ="borderhai">
+<div class="myportfolio grid-container outercontainer ">
+
+    <div class ="imageDiv hover-item"> 
+		<img class= "webiner-image" src= "${properties.fileReference}"> </img>
+	</div>
+
+	<div class ="portfolioContent"> 
+    	<p class ="event"> ${properties.type} </p>
+    	<h2 style=" margin:0;"> ${properties.jcr:title} </h2>
+        <p style=" font-weight:900; "> ${properties.jcr:speaker} <span style ="font-weight: normal; font-style: italic; color: grey ;"> ${properties.jcr:designation} <span> </p>
+		<p><i class ="fa fa-calendar"> </i>  ${properties.datepicker} 
+           <i class= "fa fa-clock-o"> </i> ${properties.time} </p> 
+	</div>
+	<div class ="reservebtndiv">
+		<a href="https://www.royalcyber.com/connecting-commerce-cloud-to-salesforce-crm-clouds/"> <button class ="btnReserve"><i class="fa fa-play-circle"></i> Reserve your seats </button> </a>
+
+	</div>
+</div>
+</div>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="20834997-3dd6-422b-ab40-3a63e4f6fa1e">
+    <jcr:content
+        cq:name="MicrosoftTeams-image (4).png"
+        cq:parentPath="/content/dam/demorc/awards"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-05-23T19:40:58.978+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:ns1=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;    xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;    xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot;&#xa;    xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot;&#xa;   ns1:Physicalheightininches=&quot;-1.0&quot;&#xa;   ns1:Physicalwidthininches=&quot;-1.0&quot;&#xa;   ns1:Fileformat=&quot;PNG&quot;&#xa;   ns1:Progressive=&quot;no&quot;&#xa;   ns1:extracted=&quot;2022-05-23T19:10:50.234+05:30&quot;&#xa;   ns1:Bitsperpixel=&quot;32&quot;&#xa;   ns1:MIMEtype=&quot;image/png&quot;&#xa;   ns1:Comments=&quot;Software: Adobe ImageReady&amp;#xA;XML:com.adobe.xmp: &amp;lt;?xpacket begin=&amp;quot;﻿&amp;quot; id=&amp;quot;W5M0MpCehiHzreSzNTczkc9d&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;x:xmpmeta xmlns:x=&amp;quot;adobe:ns:meta/&amp;quot; x:xmptk=&amp;quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &amp;quot;&amp;gt;&amp;#xA; &amp;lt;rdf:RDF xmlns:rdf=&amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;quot;&amp;gt;&amp;#xA;  &amp;lt;rdf:Description rdf:about=&amp;quot;&amp;quot;&amp;#xA;    xmlns:ns1=&amp;quot;http://www.day.com/dam/1.0&amp;quot;&amp;#xA;    xmlns:tiff=&amp;quot;http://ns.adobe.com/tiff/1.0/&amp;quot;&amp;#xA;    xmlns:xmp=&amp;quot;http://ns.adobe.com/xap/1.0/&amp;quot;&amp;#xA;    xmlns:dc=&amp;quot;http://purl.org/dc/elements/1.1/&amp;quot;&amp;#xA;    xmlns:xmpMM=&amp;quot;http://ns.adobe.com/xap/1.0/mm/&amp;quot;&amp;#xA;    xmlns:stRef=&amp;quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&amp;quot;&amp;#xA;   ns1:Physicalheightininches=&amp;quot;-1.0&amp;quot;&amp;#xA;   ns1:Physicalwidthininches=&amp;quot;-1.0&amp;quot;&amp;#xA;   ns1:Fileformat=&amp;quot;PNG&amp;quot;&amp;#xA;   ns1:Progressive=&amp;quot;no&amp;quot;&amp;#xA;   ns1:extracted=&amp;quot;2022-05-23T17:43:57.512+05:30&amp;quot;&amp;#xA;   ns1:Bitsperpixel=&amp;quot;32&amp;quot;&amp;#xA;   ns1:MIMEtype=&amp;quot;image/png&amp;quot;&amp;#xA;   ns1:Comments=&amp;quot;Software: Adobe ImageReady&amp;amp;#xA;XML:com.adobe.xmp: &amp;amp;lt;?xpacket begin=&amp;amp;quot;﻿&amp;amp;quot; id=&amp;amp;quot;W5M0MpCehiHzreSzNTczkc9d&amp;amp;quot;?&amp;amp;gt; &amp;amp;lt;x:xmpmeta xmlns:x=&amp;amp;quot;adobe:ns:meta/&amp;amp;quot; x:xmptk=&amp;amp;quot;Adobe XMP Core 7.1-c000 79.dabacbb, 2021/04/14-00:39:44        &amp;amp;quot;&amp;amp;gt; &amp;amp;lt;rdf:RDF xmlns:rdf=&amp;amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;amp;quot;&amp;amp;gt; &amp;amp;lt;rdf:Description rdf:about=&amp;amp;quot;&amp;amp;quot; xmlns:xmp=&amp;amp;quot;http://ns.adobe.com/xap/1.0/&amp;amp;quot; xmlns:xmpMM=&amp;amp;quot;http://ns.adobe.com/xap/1.0/mm/&amp;amp;quot; xmlns:stRef=&amp;amp;quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&amp;amp;quot; xmp:CreatorTool=&amp;amp;quot;Adobe Photoshop 22.5 (Macintosh)&amp;amp;quot; xmpMM:InstanceID=&amp;amp;quot;xmp.iid:F90E2FF9250A11EC84A1F3601F767C25&amp;amp;quot; xmpMM:DocumentID=&amp;amp;quot;xmp.did:F90E2FFA250A11EC84A1F3601F767C25&amp;amp;quot;&amp;amp;gt; &amp;amp;lt;xmpMM:DerivedFrom stRef:instanceID=&amp;amp;quot;xmp.iid:F90E2FF7250A11EC84A1F3601F767C25&amp;amp;quot; stRef:documentID=&amp;amp;quot;xmp.did:F90E2FF8250A11EC84A1F3601F767C25&amp;amp;quot;/&amp;amp;gt; &amp;amp;lt;/rdf:Description&amp;amp;gt; &amp;amp;lt;/rdf:RDF&amp;amp;gt; &amp;amp;lt;/x:xmpmeta&amp;amp;gt; &amp;amp;lt;?xpacket end=&amp;amp;quot;r&amp;amp;quot;?&amp;amp;gt;&amp;amp;#xA;&amp;quot;&amp;#xA;   ns1:Physicalwidthindpi=&amp;quot;-1&amp;quot;&amp;#xA;   ns1:Physicalheightindpi=&amp;quot;-1&amp;quot;&amp;#xA;   ns1:Numberofimages=&amp;quot;1&amp;quot;&amp;#xA;   ns1:Numberoftextualcomments=&amp;quot;2&amp;quot;&amp;#xA;   ns1:sha1=&amp;quot;80fef7c9cdf6a16c3fa535e09fddcdb9f5d52a83&amp;quot;&amp;#xA;   ns1:size=&amp;quot;65460&amp;quot;&amp;#xA;   tiff:ImageLength=&amp;quot;220&amp;quot;&amp;#xA;   tiff:ImageWidth=&amp;quot;170&amp;quot;&amp;#xA;   xmp:CreatorTool=&amp;quot;Adobe Photoshop 22.5 (Macintosh)&amp;quot;&amp;#xA;   dc:format=&amp;quot;image/png&amp;quot;&amp;#xA;   dc:modified=&amp;quot;2022-05-23T19:10:47.011+05:30&amp;quot;&amp;#xA;   xmpMM:DocumentID=&amp;quot;xmp.did:F90E2FFA250A11EC84A1F3601F767C25&amp;quot;&amp;#xA;   xmpMM:InstanceID=&amp;quot;xmp.iid:F90E2FF9250A11EC84A1F3601F767C25&amp;quot;&amp;gt;&amp;#xA;   &amp;lt;xmpMM:DerivedFrom&amp;#xA;    stRef:instanceID=&amp;quot;xmp.iid:F90E2FF7250A11EC84A1F3601F767C25&amp;quot;&amp;#xA;    stRef:documentID=&amp;quot;xmp.did:F90E2FF8250A11EC84A1F3601F767C25&amp;quot;/&amp;gt;&amp;#xA;  &amp;lt;/rdf:Description&amp;gt;&amp;#xA; &amp;lt;/rdf:RDF&amp;gt;&amp;#xA;&amp;lt;/x:xmpmeta&amp;gt;&amp;#xA;&amp;lt;?xpacket end=&amp;quot;r&amp;quot;?&amp;gt;&amp;#xA;&quot;&#xa;   ns1:Physicalwidthindpi=&quot;-1&quot;&#xa;   ns1:Physicalheightindpi=&quot;-1&quot;&#xa;   ns1:Numberofimages=&quot;1&quot;&#xa;   ns1:Numberoftextualcomments=&quot;2&quot;&#xa;   ns1:sha1=&quot;09e87e8d8d73075bf029ed2b439d98a70003f930&quot;&#xa;   ns1:size=&quot;67241&quot;&#xa;   tiff:ImageLength=&quot;220&quot;&#xa;   tiff:ImageWidth=&quot;170&quot;&#xa;   xmp:CreatorTool=&quot;Adobe Photoshop 22.5 (Macintosh)&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2022-05-23T19:10:47.011+05:30&quot;&#xa;   xmpMM:DocumentID=&quot;xmp.did:F90E2FFA250A11EC84A1F3601F767C25&quot;&#xa;   xmpMM:InstanceID=&quot;xmp.iid:F90E2FF9250A11EC84A1F3601F767C25&quot;>&#xa;   &lt;xmpMM:DerivedFrom&#xa;    stRef:instanceID=&quot;xmp.iid:F90E2FF7250A11EC84A1F3601F767C25&quot;&#xa;    stRef:documentID=&quot;xmp.did:F90E2FF8250A11EC84A1F3601F767C25&quot;/>&#xa;  &lt;/rdf:Description>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2022-05-23T19:40:58.795+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}2"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="fdfdb325ea2e4009ff00731af23e29250728f5a3"
+            dam:size="{Long}69580"
+            dc:format="image/png"
+            dc:modified="{Date}2022-05-23T19:10:47.011+05:30"
+            jcr:lastModified="{Date}2022-05-23T19:40:57.671+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}220"
+            tiff:ImageWidth="{Long}170"
+            xmp:CreatorTool="Adobe Photoshop 22.5 (Macintosh)"
+            xmpMM:DocumentID="xmp.did:F90E2FFA250A11EC84A1F3601F767C25"
+            xmpMM:InstanceID="xmp.iid:F90E2FF9250A11EC84A1F3601F767C25">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:F90E2FF8250A11EC84A1F3601F767C25"
+                stRef:instanceID="xmp.iid:F90E2FF7250A11EC84A1F3601F767C25"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

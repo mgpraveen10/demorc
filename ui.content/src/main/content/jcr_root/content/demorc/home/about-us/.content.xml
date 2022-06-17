@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-05-23T18:16:05.145+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/demorc/settings/wcm/templates/demorc-dynamic-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="about-us"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:lastModified="{Date}2022-05-20T13:54:16.140+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <static_navigation
+                jcr:created="{Date}2022-05-23T17:47:39.620+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:47:39.620+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/bk/static-navigation"/>
+            <textimage
+                jcr:created="{Date}2022-05-23T13:38:47.678+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T13:40:28.146+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/content/Djay/textimage"
+                description="Leader in Digital Transformation"
+                fileReference="/content/dam/demorc/MicrosoftTeams-image.png"
+                title="About Us"/>
+            <texttitledescription
+                jcr:created="{Date}2022-05-23T13:54:17.020+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T13:58:15.631+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/content/Djay/texttitledescription"
+                description="Royal Cyber Inc. is a globally recognized award-winning technology partner that is helping companies imagine, execute, and accelerate their digital transformation journey for the past 20 years. Royal Cyber provides superior solutions that create exceptional business value, guarantee success, and transform businesses with robust and adaptable digital solutions that satisfy today’s needs and unlock tomorrow’s opportunities."
+                subtitle="Encourage Growth &amp; Achieve Excellence"
+                title="Simplifying IT for Customers &amp; Partners">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="5"/>
+                </cq:responsive>
+            </texttitledescription>
+            <digital_content
+                jcr:created="{Date}2022-05-23T13:58:29.459+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T13:59:28.903+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/bk/digital-content"
+                contentFilePath="/content/dam/demorc/videoplayback.mp4"
+                type="video">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="5"/>
+                </cq:responsive>
+            </digital_content>
+            <texttitledescription_1187094226
+                jcr:created="{Date}2022-05-23T14:00:34.827+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T14:01:00.344+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/content/Djay/texttitledescription"
+                description="An IT Consulting and Digital Transformation Company"
+                subtitle="Company Overview">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="newline"
+                        offset="8"
+                        width="3"/>
+                </cq:responsive>
+            </texttitledescription_1187094226>
+            <title
+                jcr:created="{Date}2022-05-23T14:04:02.179+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T14:04:10.815+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dinesh/title"
+                title="We’re Proud of Our Relationships">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="4"
+                        width="8"/>
+                </cq:responsive>
+            </title>
+            <link
+                jcr:created="{Date}2022-05-23T14:04:57.163+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T14:05:33.069+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="praveen/link"
+                fileReference="/content/dam/demorc/AugustaSportswear-Logo.svg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="1"/>
+                </cq:responsive>
+            </link>
+            <link_1548224772
+                jcr:created="{Date}2022-05-23T14:05:14.074+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T14:07:04.360+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="praveen/link"
+                fileReference="/content/dam/demorc/Coppel-Logo-v1.svg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="1"/>
+                </cq:responsive>
+            </link_1548224772>
+            <title_1085507889
+                jcr:created="{Date}2022-05-23T14:13:36.275+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T14:13:56.255+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dinesh/title"
+                title="Our Leadership Team">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="9"/>
+                </cq:responsive>
+            </title_1085507889>
+            <title_1166825243
+                jcr:created="{Date}2022-05-23T17:31:11.518+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:31:23.850+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/title"
+                title="We’re Proud of Our Relationships">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="9"/>
+                </cq:responsive>
+            </title_1166825243>
+            <link_251239763
+                jcr:created="{Date}2022-05-23T17:31:35.545+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:32:21.453+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/praveen/link"
+                fileReference="/content/dam/demorc/AugustaSportswear-Logo.svg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="2"/>
+                </cq:responsive>
+            </link_251239763>
+            <link_1582071908
+                jcr:created="{Date}2022-05-23T17:31:44.324+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:32:31.819+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/praveen/link"
+                fileReference="/content/dam/demorc/Coppel-Logo-v1.svg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </link_1582071908>
+            <link_682098176
+                jcr:created="{Date}2022-05-23T17:31:53.563+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:32:36.589+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/praveen/link"
+                fileReference="/content/dam/demorc/Fletcher-Building-Logo-v1.svg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </link_682098176>
+            <title_1645973450
+                jcr:created="{Date}2022-05-23T17:32:58.251+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:33:07.737+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/title"
+                title="Our Leadership Team">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="9"/>
+                </cq:responsive>
+            </title_1645973450>
+            <leaderprofile
+                jcr:created="{Date}2022-05-23T14:14:21.260+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T14:15:57.163+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="leaderprofile/leaderprofile"
+                designation="CEO"
+                fileReference="/content/dam/demorc/Mustafa-Peshawarwala.jpg"
+                linkURL="https://www.linkedin.com/authwall?trk=gf&amp;trkInfo=AQHBvFKEz9ij1gAAAYDwF6iggvF_OyBvDju9mmN6qf3JxeoRhgolBYNJs8lg6m8jQ_fu1Sv2fCf4F4kHd_duMWAv4qIp4e0hWBjiyViSuvcVBkbcJH39znukhBerT1qrK_fl3us=&amp;original_referer=https://www.royalcyber.com/company/about-us/&amp;sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmustafaqutbuddin"
+                name="Mustafa Peshawarwala ">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </leaderprofile>
+            <leaderprofile_757166297
+                jcr:created="{Date}2022-05-23T14:21:59.379+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T14:23:09.748+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="leaderprofile/leaderprofile"
+                designation="Executive Vice President"
+                fileReference="/content/dam/demorc/Huzefa-Peshawarwala.jpg"
+                linkURL="https://www.linkedin.com/in/huzefa-peshawarwala-8833238?original_referer=https%3A%2F%2Fwww.royalcyber.com%2Fcompany%2Fabout-us%2F"
+                name="Huzefa Peshawarwala">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </leaderprofile_757166297>
+            <leaderprofile_307516304
+                jcr:created="{Date}2022-05-23T14:22:04.921+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T14:57:01.397+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="leaderprofile/leaderprofile"
+                designation=" Senior Vice President"
+                fileReference="/content/dam/demorc/Syed-Basheer-3.jpg"
+                linkURL="https://www.linkedin.com/in/syed-basheer-22202415/"
+                name="Syed Basheer">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="2"/>
+                </cq:responsive>
+            </leaderprofile_307516304>
+            <leaderprofile_336191676
+                jcr:created="{Date}2022-05-23T14:22:09.897+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T14:57:38.004+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="leaderprofile/leaderprofile"
+                designation="Chief Operating Officer"
+                fileReference="/content/dam/demorc/Mustafa-Peshawarwala.jpg"
+                linkURL="https://www.linkedin.com/in/moeezkarim/?original_referer=https%3A%2F%2Fwww.royalcyber.com%2Fcompany%2Fabout-us%2F"
+                name="Moeez Karim ">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="2"/>
+                </cq:responsive>
+            </leaderprofile_336191676>
+            <title_140322085
+                jcr:created="{Date}2022-05-23T14:58:06.183+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T14:58:20.957+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dinesh/title"
+                title="Our Portfolio of Cloud Computing Services">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="4"
+                        width="8"/>
+                </cq:responsive>
+            </title_140322085>
+            <link_27048308
+                jcr:created="{Date}2022-05-23T17:33:50.963+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:33:50.963+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/praveen-old/link"/>
+            <link_139564301
+                jcr:created="{Date}2022-05-23T17:34:05.988+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:34:05.988+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/praveen-old/link"/>
+            <link_400415961
+                jcr:created="{Date}2022-05-23T17:34:16.252+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:34:16.252+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/praveen-old/link"/>
+            <title_2056573231
+                jcr:created="{Date}2022-05-23T17:34:21.811+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:34:33.226+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/title"
+                title="Our Portfolio of Cloud Computing Services">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="9"/>
+                </cq:responsive>
+            </title_2056573231>
+            <portfolio
+                jcr:created="{Date}2022-05-23T14:59:27.118+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:44:45.411+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/content/portfolio">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+                <portfolios jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        description="Cutting-edge technologies for solutions that bring value to your business"
+                        fileReference="/content/dam/demorc/menu.png"
+                        readMoreLink="https://www.royalcyber.com/technologies/"
+                        title=" Technologies &amp; Services"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        description="Tailor-made products that give you the competitive edge&#xd;&#xa;"
+                        fileReference="/content/dam/demorc/amazon-partners-logo-new.png"
+                        readMoreLink="https://www.royalcyber.com/products/"
+                        title="Products"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        description="Cutting-edge technologies for solutions that bring value to your business"
+                        fileReference="/content/dam/demorc/menu.png"
+                        readMoreLink="https://www.royalcyber.com/technologies/"
+                        title=" Technologies &amp; Services"/>
+                </portfolios>
+            </portfolio>
+            <title_860709133
+                jcr:created="{Date}2022-05-23T17:40:02.667+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:40:06.761+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/title"
+                title="We're a Passionate &amp; Cross-Functional Team">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="11"/>
+                </cq:responsive>
+            </title_860709133>
+            <title_1624956590
+                jcr:created="{Date}2022-05-23T17:36:28.052+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:40:45.905+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/title"
+                title="19+ Years Of Experience">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="2"/>
+                </cq:responsive>
+            </title_1624956590>
+            <title_1358503187
+                jcr:created="{Date}2022-05-23T17:42:37.300+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:43:57.033+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/title"
+                title="1200+ Employees Worldwide">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="2"/>
+                </cq:responsive>
+            </title_1358503187>
+            <digital_content_819443112
+                jcr:created="{Date}2022-05-23T17:36:52.741+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:37:41.836+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/bk/digital-content"
+                contentFilePath="/content/dam/demorc/cros-func-team.PNG"
+                type="image">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                </cq:responsive>
+            </digital_content_819443112>
+            <titlesubtitlelink
+                jcr:created="{Date}2022-05-23T17:45:06.302+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:46:44.482+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:subtitle="Check out on some of the events that we participated"
+                jcr:title="Achievements &amp; Recognition"
+                sling:resourceType="demorc/components/content/titleSubtitleLink"
+                link="View All Events"
+                linkto="https://www.royalcyber.com/company/news-events/">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="4"/>
+                </cq:responsive>
+            </titlesubtitlelink>
+            <logonamedes
+                jcr:created="{Date}2022-05-23T17:50:28.341+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:52:02.182+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/d/logonamedes"
+                designation=" The Best Cloud Consulting Companies"
+                fileReference="/content/dam/demorc/Best-Cloud-Consulting-Companies-2021.jpg"
+                name="2020">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                </cq:responsive>
+            </logonamedes>
+            <logonamedes_1391095099
+                jcr:created="{Date}2022-05-23T17:52:26.484+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T17:53:09.943+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/d/logonamedes"
+                designation=" Best &amp; Brightest Companies to Work for in the Nation"
+                fileReference="/content/dam/demorc/Best-Cloud-Consulting-Companies-2021.jpg"
+                name="2021">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="5"
+                        width="7"/>
+                </cq:responsive>
+            </logonamedes_1391095099>
+            <title_348551671
+                jcr:created="{Date}2022-05-23T18:09:22.842+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:09:32.589+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/title"
+                title="Be Recognized">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="11"/>
+                </cq:responsive>
+            </title_348551671>
+            <description
+                jcr:created="{Date}2022-05-23T18:09:45.103+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:10:52.551+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/description"
+                description="One of Royal Cyber key leadership principles is for leaders to recognize the value of others and give credit for their team members’ accomplishments. We celebrate and reward the contributions of our colleagues through a variety of global programs such as:&#xd;&#xa;&#xd;&#xa;   ">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="6"/>
+                </cq:responsive>
+            </description>
+            <digital_content_288517696
+                jcr:created="{Date}2022-05-23T18:12:52.802+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:13:14.679+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/bk/digital-content"
+                contentFilePath="/content/dam/demorc/xoxoxday-banner-2.jpg"
+                type="image">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </digital_content_288517696>
+            <description_1938194789
+                jcr:created="{Date}2022-05-23T18:10:58.481+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:11:24.989+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/description"
+                description="1. The Builders Award&#xd;&#xa;  ">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="2"
+                        width="10"/>
+                </cq:responsive>
+            </description_1938194789>
+            <description_1315723450
+                jcr:created="{Date}2022-05-23T18:11:31.225+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:11:42.414+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/description"
+                description="2. Seniority Recognition Program&#xd;&#xa;">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="2"
+                        width="9"/>
+                </cq:responsive>
+            </description_1315723450>
+            <description_1433868276
+                jcr:created="{Date}2022-05-23T18:11:59.560+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:12:06.509+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/description"
+                description=" 3. APPLAUD peer-to-peer e-recognition platform">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="2"
+                        width="6"/>
+                </cq:responsive>
+            </description_1433868276>
+            <digital_content_88904584
+                jcr:created="{Date}2022-05-23T18:02:25.170+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:02:35.937+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/bk/digital-content"
+                contentFilePath="/content/dam/demorc/about-pic1-1.png"
+                type="image">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                </cq:responsive>
+            </digital_content_88904584>
+            <title_274160538
+                jcr:created="{Date}2022-05-23T18:03:01.505+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:03:11.312+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/title"
+                title="Culture &amp; Values">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="3"/>
+                </cq:responsive>
+            </title_274160538>
+            <logonamedes_2104120089
+                jcr:created="{Date}2022-05-23T18:03:34.601+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:04:47.071+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/d/logonamedes"
+                designation="We solve our clients’ real problems and create proven value for their customers."
+                fileReference="/content/dam/demorc/i1.PNG"
+                name="Focus on impact">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="5"/>
+                </cq:responsive>
+            </logonamedes_2104120089>
+            <logonamedes_1940247855
+                jcr:created="{Date}2022-05-23T18:05:16.642+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:05:38.929+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/d/logonamedes"
+                designation="We follow high standards in quality and ethics for the benefit of the client and better world."
+                fileReference="/content/dam/demorc/i2.PNG"
+                name="Make good things">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                </cq:responsive>
+            </logonamedes_1940247855>
+            <logonamedes_619253885
+                jcr:created="{Date}2022-05-23T18:05:56.505+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:06:18.760+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/d/logonamedes"
+                designation="We believe in progress by challenging the old and creating the new."
+                fileReference="/content/dam/demorc/i3.PNG"
+                name="&#x9; Progress is growth">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="6"
+                        width="6"/>
+                </cq:responsive>
+            </logonamedes_619253885>
+            <logonamedes_1810652386
+                jcr:created="{Date}2022-05-23T18:06:42.097+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:07:03.177+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/d/logonamedes"
+                designation="We engage diverse experts in honest collaboration for rewarding outcomes."
+                fileReference="/content/dam/demorc/i4.PNG"
+                name="Diversity is all">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="6"
+                        width="6"/>
+                </cq:responsive>
+            </logonamedes_1810652386>
+            <footer
+                jcr:created="{Date}2022-05-23T18:07:33.617+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:07:33.617+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/content/footer"/>
+        </root>
+    </jcr:content>
+</jcr:root>

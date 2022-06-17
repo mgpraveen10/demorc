@@ -1,0 +1,37 @@
+
+
+
+<style >
+
+
+
+
+
+.deneme{
+  border: 0.5px solid rgb(119, 118, 118);
+  padding: 5px;
+  margin: 10px;
+}
+
+.deneme:hover {
+-moz-transform: translate(-2px, -2px);
+-ms-transform: translate(-2px, -2px);
+-o-transform: translate(-2px, -2px);
+-webkit-transform: translate(-2px, -2px);
+transform: translate(-2px, -2px);
+ padding: 10px;
+ border: none;
+  box-shadow: 2px 2px 20px lightgrey;
+
+}
+</style>
+
+
+<div class="deneme">
+<h1 data-sly-test="${!properties.fileReference}">Edit this cart component</h1>
+<img class= image src=" ${properties.fileReference}" width="30" height="50" >
+<h2 style= "color:#7b7b7b"> ${properties.title} </h2>
+<h3> ${properties.textfield} </h3>
+<p> ${properties.description} </p>
+</div>
+

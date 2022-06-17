@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-05-23T19:00:55.048+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/demorc/settings/wcm/templates/demorc-dynamic-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="contact-us"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:lastModified="{Date}2022-05-20T13:54:16.140+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <static_navigation
+                jcr:created="{Date}2022-05-21T19:18:52.101+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-21T19:18:52.101+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/bk/static-navigation"/>
+            <textimage
+                jcr:created="{Date}2022-05-21T19:12:35.163+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-21T19:15:28.626+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/Djay/textimage"
+                description="You can find us anywhere, just fill the form we’re there"
+                fileReference="/content/dam/demorc/MicrosoftTeams-image.png"
+                title="Let's connect"/>
+            <image
+                jcr:created="{Date}2022-05-21T22:57:19.642+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-22T00:02:59.953+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="image title"
+                sling:resourceType="dinesh/image"
+                fileReference="/content/dam/training/Lock Screen.jpg"
+                textfield="text"
+                type="100">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+            </image>
+            <textimage_1180180082
+                jcr:created="{Date}2022-05-23T18:18:32.619+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:22:41.362+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/content/Djay/textimage"
+                description="You can find us anywhere, just fill the form we’re there"
+                fileReference="/content/dam/demorc/contact-banner.PNG"
+                title="Let's Connect!"/>
+            <title
+                jcr:created="{Date}2022-05-23T18:23:01.954+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:23:10.341+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/dinesh/title"
+                title="Do you have any question about our services or solutions?">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="9"/>
+                </cq:responsive>
+            </title>
+            <office_detail
+                jcr:created="{Date}2022-05-23T18:52:24.370+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:57:31.891+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="praveen/office-detail"
+                companylocation="US Headquarters"
+                description="55 Shuman Blvd, Suite 275, Naperville, IL 60563 USA."
+                email="info@royalcyber.com"
+                link="https://www.google.co.in/maps/place/Royal+Cyber/@41.8050397,-88.1464376,16.75z/data=%214m2%213m1%211s0x0:0x139eb821772896c5"
+                linkname="Get Directions"
+                number="+1.630.355.6292">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="4"/>
+                </cq:responsive>
+            </office_detail>
+            <office_detail_1119634828
+                jcr:created="{Date}2022-05-23T18:57:51.886+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:59:01.988+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="praveen/office-detail"
+                companylocation="Canada"
+                description="&#xd;&#xa;90 Burnhamthorpe Road West, Suite 1400, Mississauga, Ontario, L5B 3C3, Canada&#xd;&#xa;"
+                email="info@royalcyber.com"
+                link="https://www.google.co.in/maps/place/Royal+Cyber+Inc/@43.6082761,-79.759306,17z/data=!4m12!1m6!3m5!1s0x882b6b26c8fe16af:0x9831f09d44183f47!2sRoyal+Cyber+Inc!8m2!3d43.608318!4d-79.7571133!3m4!1s0x882b6b26c8fe16af:0x9831f09d44183f47!8m2!3d43.608318!4d-79.7571133"
+                linkname="Get Directions"
+                number="+1 416 945 2540">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="2"
+                        width="4"/>
+                </cq:responsive>
+            </office_detail_1119634828>
+            <digital_content
+                jcr:created="{Date}2022-05-23T18:28:43.912+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:28:53.463+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/bk/digital-content"
+                contentFilePath="/content/dam/demorc/support-contact-img.jpg"
+                type="image">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                </cq:responsive>
+            </digital_content>
+            <contactregister
+                jcr:created="{Date}2022-05-23T18:29:44.376+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:29:44.376+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="register form/contactregister">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="5"/>
+                </cq:responsive>
+            </contactregister>
+            <footer
+                jcr:created="{Date}2022-05-23T18:32:48.335+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-05-23T18:32:48.335+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="demorc/components/content/footer"/>
+        </root>
+    </jcr:content>
+</jcr:root>

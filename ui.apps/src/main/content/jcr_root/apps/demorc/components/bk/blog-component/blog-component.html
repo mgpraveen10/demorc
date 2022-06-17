@@ -1,0 +1,60 @@
+<meta data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+    data-sly-call="${clientlib.all @ categories='demorc.base'}" data-sly-unwrap>
+</meta>
+
+
+
+
+<div data-sly-use.blogs="blog.js" data-sly-unwrap>
+
+
+    <div data-sly-list.blog="${blogs.allBlogs}">
+        <h1 data-sly-test="${!blog.fileReference}">Blog</h1>
+        <div class="blog-container">
+
+            <!-- <div class="portfolio-icon-container">
+                    <div class="portfolio-icon">
+                        <img onclick="clicked('https://www.youtube.com/watch?v=Lm6o5JDNiqs')" 
+                        src="${blog.iconLink}"> <h2 style="margin-left: 115px;width: 170px;">${port.title}</h2>
+                        <div style="margin-left:115px ;">hsjaa ahdshd</div>
+
+                       
+                    </div>
+                    
+                </div>
+                
+                <div class="portfolio-title">
+                    
+                </div> -->
+            <div style="width: 100%;height: 50%;">
+                <div style="height: 100%;width: 100%;position: relative;">
+
+                    <h2
+                        style="height:35px ;width:80px ;background-color: #E66208;position: absolute;top: -20px;left: 0;z-index: 1;color: white;text-align: center;">
+                        Blog</h2>
+
+                    <img src="${blog.fileReference}" alt="" style="height: 100%;width: 100%;position: relative;"
+                        class="blog-image">
+
+                </div>
+
+            </div>
+            <div style="width: 100%;height: 50%;">
+                <!-- <div style="height: fit-content;width: 100%;">
+                        <h1>${port.title}</h1>
+                    </div> -->
+                <div style="width: 100%;height: 100%; padding: 15px;">${blog.description}
+
+                    <div>
+                        <a class="read-more" href="${blog.readMoreLink}"> Read more</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+</div>

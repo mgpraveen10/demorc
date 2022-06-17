@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="926d9c63-22ff-471a-965f-eda6a4c798e1">
+    <jcr:content
+        cq:name="Moeez-Karim-v1.jpg"
+        cq:parentPath="/content/dam/demorc"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-05-23T19:40:54.976+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2022-05-23T19:40:50.891+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="134dca2cba5a43399272f9ee83d6cdc26088b72a"
+            dam:size="{Long}5698"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2022-05-23T19:40:54.863+05:30"
+            jcr:lastModified="{Date}2022-05-23T19:40:54.863+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}226"
+            tiff:ImageWidth="{Long}226"
+            xmp:CreatorTool="Adobe Photoshop 22.0 (Windows)"
+            xmpMM:DocumentID="xmp.did:AC08CE2CA77611EB9FABDDC76AE022DE"
+            xmpMM:InstanceID="xmp.iid:AC08CE2BA77611EB9FABDDC76AE022DE">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:AC08CE2AA77611EB9FABDDC76AE022DE"
+                stRef:instanceID="xmp.iid:AC08CE29A77611EB9FABDDC76AE022DE"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

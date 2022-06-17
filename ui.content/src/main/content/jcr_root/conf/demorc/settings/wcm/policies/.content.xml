@@ -25,12 +25,12 @@
                         mergeList="{Boolean}true"/>
                     <default
                         jcr:description="Policy of the default root parsys"
-                        jcr:lastModified="{Date}2022-05-20T13:53:57.380+05:30"
+                        jcr:lastModified="{Date}2022-05-26T13:25:39.669+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="demorc-policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/dam/cfm/components/contentfragment,/libs/foundation/components/download,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/wcm/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/libs/wcm/foundation/components/list,/libs/foundation/components/reference,/libs/foundation/components/table,/libs/wcm/foundation/components/textimage,/libs/wcm/foundation/components/text,/libs/wcm/foundation/components/title,/libs/foundation/components/video,group:demorc]">
+                        components="[/apps/demorc/components/content/footer,/apps/demorc/components/content/header-with-topnav,/apps/demorc/components/bk/static-navigation,group:royalcyber]">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
                                 <image

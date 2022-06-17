@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="89626cf4-613f-46a9-9cee-a13c2f889ca7">
+    <jcr:content
+        cq:name="Syed-Basheer-3.jpg"
+        cq:parentPath="/content/dam/demorc"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-05-23T19:40:55.210+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2022-05-23T19:40:55.073+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="118084cf65c389d219db69ab773ef8cb4378ef47"
+            dam:size="{Long}46706"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2022-05-23T19:40:49.635+05:30"
+            jcr:lastModified="{Date}2022-05-23T19:40:49.634+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}226"
+            tiff:ImageWidth="{Long}226"
+            xmp:CreatorTool="Adobe Photoshop 22.0 (Windows)"
+            xmpMM:DocumentID="xmp.did:1BC63C2DA4FB11EBB883D6AC51FC4D1E"
+            xmpMM:InstanceID="xmp.iid:1BC63C2CA4FB11EBB883D6AC51FC4D1E"
+            xmpMM:OriginalDocumentID="xmp.did:ff7734a0-6bff-884b-b511-390731621402">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:5B90E808A4F811EBB883D6AC51FC4D1E"
+                stRef:instanceID="xmp.iid:5B90E807A4F811EBB883D6AC51FC4D1E"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

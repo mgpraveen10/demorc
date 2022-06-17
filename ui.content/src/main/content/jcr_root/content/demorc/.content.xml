@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="[/conf/demorc/settings/wcm/templates/.*]"
-        cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        jcr:primaryType="nt:unstructured"
+        cq:allowedTemplates="/conf/demorc/settings/wcm/templates/demorc-dynamic-template"
+        cq:lastModified="{Date}2022-05-20T13:56:33.907+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/demorc/templates/demorc-page-content"
+        jcr:primaryType="cq:PageContent"
         jcr:title="demorc"
-        sling:redirect="{Boolean}true"
-        sling:redirectStatus="{Long}302"
-        sling:resourceType="foundation/components/redirect"
-        redirectTarget="/content/demorc/en">
-        <image jcr:primaryType="nt:unstructured">
-            <file/>
-        </image>
-    </jcr:content>
-    <en/>
-    <fr/>
+        sling:resourceType="demorc/components/structure/page-content"/>
+    <home/>
 </jcr:root>

@@ -1,0 +1,13 @@
+<meta data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+data-sly-call="${clientlib.all @ categories='demorc.base'}" data-sly-unwrap>
+<div class="navigation-container">header
+  
+  <div data-sly-use.navItemModel="demorc.core.models.NavItemsModel">
+    <h2>${navItemModel.fileReferenceLogo}</h2>
+    <div>${navItemModel.navItems}</div>
+    <ul data-sly-list.navItem="${navItemModel.navItems}">
+      ${navItemList.count}
+      <li>navItems asdad</li>
+    </ul>
+  </div>
+</div>

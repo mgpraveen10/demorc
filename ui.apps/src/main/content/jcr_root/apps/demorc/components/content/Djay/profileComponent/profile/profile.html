@@ -1,0 +1,71 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<style>
+    button:hover {
+
+        color: white;
+        background: black;
+
+
+    }
+
+    button {
+        font-weight: normal;
+        border-radius: 25px;
+        border-width: 0px;
+        border-color: none;
+        border-style: solid;
+        background: #0077b7;
+        color: #ffffff;
+        padding: 15px 30px;
+        float: left;
+        margin-right: 35px;
+
+
+
+
+    }
+
+    .container {
+        color: black;
+        border-radius: 59px;
+        width: 90%;
+        height: 450px;
+        box-shadow: 2px 2px 20px lightgrey;
+        padding: 40px;
+        margin: 50px;
+    }
+
+    .para {
+        width: 90% !important;
+        height: 135px;
+        font-family: 'montserrat', sans-serif !important;
+        font-size: 15px !important;
+        color: #000 !important;
+        line-height: 1.8;
+        margin-bottom: 100px;
+        text-align: left;
+
+    }
+
+   
+</style>
+
+<div class="container">
+
+    <img src="${properties.fileReference}" alt="Snow"
+        style="width:300px; border-radius:50%; height:300px; float:right; vertical-align: top; margin-top:50px; margin-right:35px">
+    <h1 style="width:650px; height:50px;color: #e66208; font-size:34px; text-align:left; margin-top:20px;">
+        ${properties.name}</h1>
+    <p class="para"> ${properties.description}</p>
+
+    <a href="${properties.readMoreLink}"> <button><i class="fa fa-linkedin" style="font-size:20px;"></i>
+            ${properties.title} </button> </a>
+
+    <a href="${properties.readMoreLink2}"> <button style="background: #dd9933 !important;"> <i class="fa fa-envelope-o"
+                style="font-size:20px;"></i> ${properties.title2} </button> </a>
+
+
+</div>

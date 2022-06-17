@@ -1,0 +1,15 @@
+<meta data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientlib.all @ categories='demorc.base'}" data-sly-unwrap></meta>
+
+<div class="file-container">
+
+ <h1 data-sly-test="${!properties.contentFilePath}">Add video or image</h1>
+<sly data-sly-test.type="${properties.type}"></sly>
+
+<img class="digital-image" data-sly-test="${properties.type == 'image'}" src="${properties.contentFilePath}" >
+
+<video class="digital-video" data-sly-test="${properties.type == 'video'}"   controls preload="metadata">
+  <source src="${properties.contentFilePath}#t=2" type="video/mp4">
+
+</video>
+
+</div>

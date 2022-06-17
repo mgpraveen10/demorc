@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2022-05-20T13:57:25.101+05:30"
+        cq:lastModified="{Date}2022-05-26T13:25:39.673+05:30"
         cq:lastModifiedBy="admin"
         cq:templateType="/libs/settings/wcm/template-types/html5page"
         jcr:description="demorc-dynamic-template"
